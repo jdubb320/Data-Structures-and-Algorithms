@@ -5,6 +5,7 @@
 A mapping of keys to values. Where the key is inputted into a hash function which returns the index of where the value is stored in an array. 3 components: key, hash function, hash table. _Worst case_ occurs if there are collisions, meaning different keys result in the same index. Usual hash functions are something like hash(key) % array_size, which can result in same key. A linked list could be used to store values for hash tables with collisions.
 
 Best case - O(1)
+
 Worst Case - O(N)
 
 ## ArrayList & Resizable Arrays
